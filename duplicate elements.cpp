@@ -21,7 +21,7 @@ int main() {
     // repeated, it hasn't stored previously
     temp[j++] = arr[n - 1];// j=4
  
-    // Modify original array
+    
     for (int i = 0; i < j; i++)//final result
        cout<<temp[i]<<" ";
     cout<<"\nThe number of duplicate elements: "<<c;
